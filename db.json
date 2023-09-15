@@ -41,6 +41,12 @@
       "email": "nus@kitchen.com",
       "password": "password",
       "id": 7
+    },
+    {
+      "name": "test",
+      "email": "test@kitchen.com",
+      "password": "password",
+      "id": 8
     }
   ]
 }
