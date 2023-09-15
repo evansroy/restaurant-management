@@ -1,0 +1,46 @@
+{
+  "user": [
+    {
+      "name": "Admin",
+      "password": "password",
+      "email": "admin@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "user",
+      "password": "password",
+      "email": "user@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Vee",
+      "email": "vee@kitchen.com",
+      "password": "veepassword",
+      "id": 3
+    },
+    {
+      "name": "Dev",
+      "email": "dev@kitchen.com",
+      "password": "password",
+      "id": 4
+    },
+    {
+      "name": "roy",
+      "email": "roy@gmail.com",
+      "password": "password",
+      "id": 5
+    },
+    {
+      "name": "njoro",
+      "email": "njoro@kitchen.com",
+      "password": "password",
+      "id": 6
+    },
+    {
+      "name": "nus",
+      "email": "nus@kitchen.com",
+      "password": "password",
+      "id": 7
+    }
+  ]
+}
