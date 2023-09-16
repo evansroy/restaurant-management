@@ -3,12 +3,18 @@
         <a href="#">Home</a>
         <a href="">Add Restaurant</a>
         <a href="">Update Restaurant</a>
-        <a href="">LogOut</a>
+        <a href="" @click="logOut">LogOut</a>
     </div>
 </template>
 <script>
     export default {
-        name: 'HeaderNav'
+        name: 'HeaderNav',
+        methods:{
+            logOut(){
+                localStorage.clear();
+                this.$router.push({name:'LogIn'})
+            }
+        }
     }
 </script>
 <style>
