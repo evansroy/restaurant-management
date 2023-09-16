@@ -15,6 +15,18 @@
 
 <script>
 export default {
-    name:'LogIn'
+    name:'LogIn',
+    data(){
+        return {
+            email:'',
+            password:''
+        }
+    },
+    methods:{
+        logIn()
+        {
+            console.log(this.email, this.password);
+        }
+    }
 }
 </script>
