@@ -14,6 +14,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
     name:'LogIn',
     data(){
@@ -23,10 +24,25 @@ export default {
         }
     },
     methods:{
-        logIn()
+        async logIn()
         {
-            console.log(this.email, this.password);
+            let result = await axios.get(`http://localhost:3000/user?email=${this.email}&password=${this.password}`)
+            if(result.status==200 && result.data.length>0){
+              localStorage.setItem("user-info",JSON.stringify(result.data[0]))
+              this.$router.push({name:'Home'})
+            }
+            console.log(result);
         }
+    },
+    computed: {
+    isLoggedIn() {
+      return !!localStorage.getItem('user-info');
     }
+  },
+  mounted() {
+    if (this.isLoggedIn) {
+      this.$router.push({ name: 'Home' });
+    }
+  }
 }
 </script>
