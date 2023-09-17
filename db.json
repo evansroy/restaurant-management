@@ -51,10 +51,10 @@
   ],
   "restaurant": [
     {
-      "id": 1,
       "name": "Kitchen Chief",
+      "address": "Kangundo Road, Umoja",
       "contact": 254472354,
-      "address": "Kangundo Road, Saika"
+      "id": 1
     },
     {
       "id": 2,
@@ -64,8 +64,8 @@
     },
     {
       "name": "Pepinnos",
+      "address": "Nairobi CBD Ordion",
       "contact": 234525,
-      "address": "Nairobi CBD",
       "id": 3
     },
     {
