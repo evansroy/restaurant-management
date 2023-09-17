@@ -49,18 +49,42 @@
       "id": 8
     }
   ],
-  "restaurant":[
+  "restaurant": [
     {
-      "id":1,
-      "name":"Kitchen Chief",
-      "contacts":254472354,
-      "address":"Kangundo Road, Saika"
+      "id": 1,
+      "name": "Kitchen Chief",
+      "contacts": 254472354,
+      "address": "Kangundo Road, Saika"
     },
     {
-      "id":2,
-      "name":"MC Chief",
-      "contacts":2543423,
-      "address":"Outering Road, Umoja"
+      "id": 2,
+      "name": "MC Chief",
+      "contacts": 2543423,
+      "address": "Outering Road, Umoja"
+    },
+    {
+      "name": "Pepinnos",
+      "contacts": 234525,
+      "address": "Nairobi CBD",
+      "id": 3
+    },
+    {
+      "name": "The Nest",
+      "address": "Langas,Kisumu Ndongo",
+      "contacts": "12345",
+      "id": 4
+    },
+    {
+      "name": "Java",
+      "address": "Langata Road",
+      "contacts": "12345",
+      "id": 5
+    },
+    {
+      "name": "Test One",
+      "address": "Langata Road",
+      "contacts": "12345",
+      "id": 6
     }
   ]
 }
