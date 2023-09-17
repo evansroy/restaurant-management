@@ -47,24 +47,20 @@
       "email": "test@kitchen.com",
       "password": "password",
       "id": 8
+    }
+  ],
+  "restaurant":[
+    {
+      "id":1,
+      "name":"Kitchen Chief",
+      "contacts":254472354,
+      "address":"Kangundo Road, Saika"
     },
     {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 9
-    },
-    {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 10
-    },
-    {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 11
+      "id":2,
+      "name":"MC Chief",
+      "contacts":2543423,
+      "address":"Outering Road, Umoja"
     }
   ]
 }
